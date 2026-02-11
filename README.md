@@ -10,4 +10,7 @@ Both methods employ convolutional neural networks adapted from the U-Net framewo
 
 Training of HALtracks 2D and 3D drew upon a very large dataset (~2.5 terabytes) of 6,526 image sets of fission tracks in apatite. Due to its very large size, the training and testing datasets are not distributed within this repository; interested users should contact the authors directly.
 
-Further technical details on model structure, optimisation, and evaluation are given in Boone et al. (2025). The trained HALtracks networks are provided as ONNX-formatted models, a standard exchange framework for neural networks that ensures compatibility across platforms and programming languages (e.g., Python, C++, Java). Both algorithms are now fully integrated within FastTracks V4, enabling automated fission-track analysis within a widely used digital platform.
+Further technical details on model structure, optimisation, and evaluation are given in Boone et al. (2025).  The trained HALtracks networks are provided as ONNX-formatted models, a standard exchange framework for neural networks that ensures compatibility across platforms and programming languages (e.g., Python, C++, Java). Both algorithms are now fully integrated within FastTracks V4, enabling automated fission-track analysis within a widely used digital platform.
+
+
+References: <https://www.sciencedirect.com/science/article/pii/S0098300425002468?via%3Dihub>
